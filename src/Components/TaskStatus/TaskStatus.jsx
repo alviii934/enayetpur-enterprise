@@ -2,7 +2,7 @@ import React from 'react';
 
 const TaskStatus = () => {
   return (
-    <div className="w-full lg:w-1/4">
+    <div className="w-full">
   
 
       <div className="space-y-4">

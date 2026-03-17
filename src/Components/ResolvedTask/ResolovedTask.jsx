@@ -2,7 +2,7 @@ import React from 'react';
 
 const ResolovedTask = () => {
   return (
-    <div className="w-full lg:w-1/4">
+    <div className="w-full">
       <div className="space-y-4  ">
         {/* Task Card 1 */}
         <div className=" p-5 rounded-xl shadow-sm border border-gray-200 bg-green-100">

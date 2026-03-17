@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Vector1 from './assets/vector1.png';
 import TaskStatus from './Components/TaskStatus/TaskStatus';
 import ResolovedTask from './Components/ResolvedTask/ResolovedTask';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -73,13 +74,13 @@ const ticketsPromise = fetchtickets();
         </div>
       </div>
 
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="col-span-2">
           <Suspense>
             <CustomerTickets ticketsPromise={ticketsPromise}></CustomerTickets>
           </Suspense>
         </div>
-        <div className="bg-[#f3f4f6]">
+        <div className="bg-[#f3f4f6] p-2 md:p-4 ">
           <Suspense>
             <h2 className="text-md font-bold mb-2 mt-4 text-[#2d3748]">
               Task Status
@@ -94,6 +95,9 @@ const ticketsPromise = fetchtickets();
           </Suspense>
         </div>
       </div>
+      <Suspense>
+        <Footer></Footer>
+      </Suspense>
     </>
   );
 }
