@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1005,
+    "title": "App Crash on Launch",
+    "description": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+    "customer": "Siam Ahmed",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": 1006,
+    "title": "Login Failure",
+    "description": "User unable to login using correct credentials on web app.",
+    "customer": "Sarah Ahmed",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1007,
+    "title": "Payment Gateway Error",
+    "description": "Transaction fails during checkout process for multiple users.",
+    "customer": "Alvi hasan",
+    "priority": "Critical Priority",
+    "status": "Open",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": 1008,
+    "title": "UI Alignment Issue",
+    "description": "Buttons and text are misaligned on mobile devices.",
+    "customer": "Emily Davis",
+    "priority": "Low Priority",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1009,
+    "title": "Email Notification Not Sending",
+    "description": "System is not sending password reset emails.",
+    "customer": "Robert Brown",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": 1010,
+    "title": "Slow Dashboard Load",
+    "description": "Dashboard takes too long to load user data.",
+    "customer": "Olivia Smith",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2024-01-24"
+  },
+  {
+    "id": 1011,
+    "title": "Profile Update Bug",
+    "description": "Users cannot update their profile information.",
+    "customer": "Daniel Wilson",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2024-01-25"
+  },
+  {
+    "id": 1012,
+    "title": "Search Function Not Working",
+    "description": "Search results are not displaying correctly.",
+    "customer": "Sophia Taylor",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2024-01-26"
+  },
+  {
+    "id": 1013,
+    "title": "Push Notification Delay",
+    "description": "Notifications are delayed by several minutes.",
+    "customer": "Liam Anderson",
+    "priority": "Low Priority",
+    "status": "Open",
+    "createdAt": "2024-01-27"
+  },
+  {
+    "id": 1014,
+    "title": "File Upload Error",
+    "description": "Users unable to upload images or documents.",
+    "customer": "Noah Martinez",
+    "priority": "Critical Priority",
+    "status": "Open",
+    "createdAt": "2024-01-28"
+  }
+]
